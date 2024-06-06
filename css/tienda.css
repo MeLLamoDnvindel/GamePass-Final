@@ -1,0 +1,265 @@
+button.scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5; /* Agregar transparencia */
+  }
+  
+  button.scrollToTop:hover {
+    background-color: #3e8e41;
+    opacity: 1; /* Quitar transparencia al pasar el mouse */
+  }
+/* Estilos para el botón de subida */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/gamepass/imagen/fondo.jpg);/* para poner un fondo y no quede tan soso */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+/* Ajustes por defecto */
+.menu-lateral {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    margin: 0px;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.menu-logo {
+    padding-left: 50px;
+    padding-top: 20px;
+    display: block;
+}
+/* para centrar en el menu el logo y que aparezca */
+.menu-item a{
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+    color: black;
+    text-transform: uppercase;  
+    font-weight: bold;
+    font-weight: 700px;
+    background-color: green;
+    border-radius: 10px;
+}
+/* para poner un menu centrado y anclado a la izquierda */
+.contenido-main {
+    margin-left: 220px;
+    font-size: 18px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.180); /* para poner un fondo en el main mas oscuro sin modificar el fondo de por si  */
+}
+/* como ajuste por defecto del main y tener el texto centrado y sin comerse el menu  */
+.titulo {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* para poder resaltar los titulos  */
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+} 
+.propaganda {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.letra-pequeña {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+/* más edicicion de texto para que queden bien*/
+.letra-pequeña a{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+.letra-pequeña a:hover {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+/* para poder resaltar el link*/
+.pack-column-main {
+    background-color:  none; /* Para poner el mismo fondo al mismo pack + titulo */
+}
+.pack-column {
+    display: flex; /* Para distribuir las columnas */
+}
+/* Para centrar las img */
+
+
+footer {
+    margin-left: 220px;
+    font-size: 18px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.180);
+}
+/* como ajuste por defecto del footer y tener el texto centrado y sin comerse el menu  */
+footer a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+/* para dara efectos a los enlaces */
+.pack-column-pie {
+    display: flex;
+}
+.column-pie, .politica {
+    background-color: black; /* dar mismo fondo sin necesidad de generar otro div */
+}
+.column-pie {
+    flex: 1;
+    padding: 10px;
+}
+footer h3{
+    background-color: black;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 0px
+}
+/* más ediccion del footer para que se quede los titulos en negro y el final tambn para resaltar el copy, redes + tlfono */
+/* añadidos para esta página */
+
+.column1-inicio, .column3-inicio {
+    flex: 1; /* Permite que las columnas ocupen el mismo ancho */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.500)
+}
+.column1-inicio h2, .column3-inicio h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.column3-inicio p, .column1-inicio p{
+    color: black;
+    font-weight: bold;
+}
+.column3-inicio ul, .column1-inicio ul{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+/* para hacer las culumnas exteriores diferentes a la interior */
+.column2-inicio {
+    flex: 1; /* 2º columna*/
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.500);
+}
+.column2-inicio h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.column2-inicio p{
+    color: white;
+    font-weight: bold;
+}
+.column2-inicio ul{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+/* ediccion personalizada de la culumna del medio o interna */
+.column3-inicio img, .column2-inicio img, .column1-inicio img{
+    display: block;
+    margin: 0 auto;
+}
+.descrip-plan {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+/* ajustes comunes para todas las columnas */ 
+
+.compra-colum{
+    display: flex;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.500);
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.colum-form {
+    flex: 1;
+    padding: 10px;
+}
+/* Para la primera tabla */ 
+.pagar-colum {
+    display: flex;
+    justify-content: center; /* Para dejar los row en el centro */
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black ;
+}
+
+.cant-form, .precio-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos verticalmente */
+    width: 100%; /* Ajusta el ancho al 100% */
+}
+
+.espacio {
+    flex: 1; /* Para subir el contenido hacia arriba */
+}
+
+.btn-pagar {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    background-color: rgba(255, 255, 255, 0.500);
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.btn-pagar:hover {
+    background-color: rgba(0, 128, 0, 0.500);
+    color: white;
+}
+/* Para la parte de compras */
+
+

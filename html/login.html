@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="/gamepass/imagen/icon.png" type="image/x-icon"><!--icono de la "empresa" -->
+    <link rel="stylesheet" href="/gamepass/css/login.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- CONTENEDOR DE CAJAS LATERALES -->
+        <div class="container-box">
+            <div class="box signin">
+                <h2>¿Ya tiene una cuenta?</h2>
+                <button class="signin-btn">Iniciar sesión</button>
+            </div>
+
+            <div class="box signup">
+                <h2>¿No tiene cuenta?</h2>
+                <button class="signup-btn">Regístrate</button>
+            </div>
+        </div>
+
+
+        <!-- CONTENEDOR DE FORMULARIOS -->
+        <div class="container-form">
+            <div class="form signin-form">
+                <form action="">
+                    <h2>Inicia sesión</h2>
+                    <input type="text" placeholder="Usuario">
+                    <input type="password" placeholder="Contraseña">
+                    <input type="submit" value="Entrar">
+                    <a href="#" class="forgot">¿Has olvidado la contraseña?</a>
+                </form> <br>
+<!--  ######### lo de arriba es plantilla ####### -->
+                <div class="inicio-perfil">
+                    <button id="volver-inicio">Volver a Inicio</button>
+                </div>
+            </div>
+<!--para volver hacia atras-->
+<!--  ######### lo de abajo es plantilla ####### -->
+            <div class="form signup-form">
+                <form action="">
+                    <h2>Crea tu cuenta</h2>
+                    <input type="text" placeholder="Usuario">
+                    <input type="email" placeholder="E-mail">
+                    <input type="password" placeholder="Contraseña">
+                    <input type="password" placeholder="Confirma la Contraseña">
+                    <input type="submit" value="Regístrate">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/gamepass/js/login.js"></script>
+</body>
+</html>

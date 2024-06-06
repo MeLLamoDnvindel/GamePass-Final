@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamePass</title>
+    <link rel="icon" href="/gamepass/imagen/icon.png" type="image/x-icon"><!--icono de la "empresa" -->
+    <link rel="stylesheet" href="/gamepass/css/tienda.css"><!--para meter el css -->
+    <script src="/gamepass/js/tienda.js"></script><!-- para meter el js -->
+</head>
+<body>
+    <nav class="menu-lateral">
+        <div class="menu-logo">
+            <img src="/gamepass/imagen/icon.png" width="100px" height="100px">
+        </div><!-- logo para el menu -->
+        <div class="menu-item">
+            <a href="/gamepass/index.html"> <p>Inicio</p> </a>
+        </div>
+        <div class="menu-item">
+            <a href="/gamepass/html/game.html"> <p>Juegos</p> </a>
+        </div> 
+        <div class="menu-item">
+            <a href="/gamepass/html/tienda.html"> <p>Tienda</p> </a>
+        </div>
+        <div class="menu-item">
+            <a href="/gamepass/html/login.html"> <p>Perfil</p> </a>
+        </div>
+<!--clases para tener el menu -->               
+    </nav>
+    <main class="contenido-main">
+        <h1 class="titulo">Te presentamos nuestros planes</h1><br>
+        
+            <div class="pack-column">
+                <div class="column1-inicio">
+                    <h2> Plan de Iniciado  <br> <br> Por 5.99€/mes </h2>
+                    <img src="/gamepass/imagen/plan-iniciado.jpg" width="400" height="350px">
+                    <p class="descrip-plan">Sumérgete en el mundo de los juegos con nuestro plan de inicio, 
+                    perfecto para explorar títulos básicos. </p>
+                    <ul>
+                        <li>Acceso restringido a una selección limitada de juegos básicos.</li><br>
+                        <li>Sin acceso a lanzamientos recientes o títulos premium</li><br>
+                        <li>Sin beneficios adicionales como descuentos en compras de juegos</li><br>
+                    </ul>
+
+                </div>
+                <div class="column2-inicio">
+                    <h2> Plan veterano <br> <br> Por 9.99€/mes </h2>
+                    <img src="/gamepass/imagen/plan-vetenaro.jpg" width="400" height="350px">
+                    <p class="descrip-plan">Eleva tu experiencia de juego y enfrenta desafíos 
+                    emocionantes con nuestra amplia selección de juegos de calidad</p>
+                    <ul>
+                        <li>Acceso a una amplia variedad de juegos de diferentes géneros y calidades</li><br>
+                        <li>Posibilidad de jugar a lanzamientos recientes y títulos populares</li><br>
+                        <li>Ofrece descuentos exclusivos en compras de juegos seleccionados.</li><br>
+                    </ul>
+
+                </div>
+                <div class="column3-inicio">
+                    <h2> Plan de leyenda  <br> <br> Por 14.99€/mes </h2>
+                    <img src="/gamepass/imagen/plan-leyenda.jpg" width="400" height="350px">
+                    <p class="descrip-plan">Conviértete en una leyenda entre los jugadores con acceso 
+                    total a nuestra biblioteca de juegos y exclusivos beneficios. </p>
+                    <ul>
+                        <li>Acceso total a todos los juegos disponibles en el servicio</li><br>
+                        <li>Prioridad en los lanzamientos de títulos exclusivos</li><br>
+                        <li>Acceso a pruebas de juegos anticipadas y eventos exclusivos</li><br>
+                    </ul> 
+                </div>
+            </div>
+            <br>
+<!--#################### Final de las columnas que explican los planes ####################-->        
+        <h1 class="titulo">Comprar</h1>
+            <div class="compra-colum">
+                <div class="colum-form">
+                    <input class="nickname" type="text" placeholder="Nombre de la cuenta">
+                    <p>nickname</p>
+                </div> 
+                <div class="colum-form">
+                    <input type="email" placeholder="e-mail">
+                    <p>e-mail</p>
+                </div> 
+                <div class="colum-form">
+                    <input type="text" placeholder="id cuenta">
+                    <p>Id Cuenta</p>
+                </div>
+            </div>
+            <div class="pagar-colum">
+                <div class="cant-form">
+                    <select class="cant-row-form" placeholder ="cabin">
+                        <option value="0" selected="selected">ninguno</option>
+                        <option value="1">uno</option>
+                    </select>
+                    <p>cantidad</p>
+                </div>  
+                <div class="precio-form">
+                    <select class="precio-row-form" placeholder="cabin">
+                        <option value="5.99" selected="selected">Plan Iniciado</option>
+                        <option value="9.99">Plan Veterano</option>
+                        <option value="14.99">Plan Leyenda</option>
+                    </select>
+                    <p>planes</p>
+                </div>  
+                <p class="espacio"> </p>
+            </div> 
+            <div class="btn-pagar">
+                <p>Pagar</p>
+            </div>
+
+<!--#################### Final de las columnas del carrito ####################-->       
+<button class="scrollToTop">&#8593;</button>
+<!-- El botón de desplazamiento -->
+</main>    
+    <footer class="contenido-pie">
+        <h3>Condiciones de Suscripción</h3>
+        <p>Consulta <a href="#">dngame.com/subs</a> <!--url no existe, basado en lo que hice en wordpress --> 
+        para obtener información detallada sobre las condiciones de suscripción de DnGame.</p>
+        <br>
+        <h3>Ofertas Promocionales</h3>
+        <p>Las ofertas solo son válidas en determinadas regiones y se requiere una tarjeta de crédito.</p>
+        <p>Una vez finalizado el periodo promocional, la suscripción se renovará automáticamente al precio vigente (sujeto a cambios), salvo que se cancele, más impuestos correspondientes.</p>
+        <br>
+        <h3>Facturación Periódica</h3>
+        <p>Al inscribirte, autorizas a que se realicen pagos periódicos a Vntana, la empresa detrás de DnGame, según la frecuencia que elijas hasta que decidas cancelar.</p>
+        <p>Para detener los cargos, puedes cancelar tu suscripción en tu cuenta Vntana (<a href="#">account.vntana.com/servicios</a>) <!--url no existe, basado en lo que hice en wordpress --> 
+        o desde tu consola DnGame antes de la próxima fecha de facturación.</p>
+        <p>Los cargos pueden ajustarse con un preaviso de al menos 30 días, según las condiciones de venta de la Tienda Vntana.</p>
+        <br>
+        <h3>Disponibilidad de Juegos</h3>
+        <p>Los títulos, cantidad, características y disponibilidad de los juegos pueden variar según la región, la plataforma y el plan de Game Pass de DnGame.</p>
+        <br>
+        <h3>Juegos en la Nube</h3>
+        <p>Para disfrutar de los juegos en la nube, necesitarás una suscripción a DnGame Game Pass Ultimate y un control compatible (se venden por separado).</p>
+        <p>Se requiere una conexión a Internet de alta velocidad.</p>
+        <br>
+        <div class="politica">
+            <h3>Legal</h3><!--url no existe, basado en lo que hice en wordpress --> 
+            <ul>
+                <li><a href="#">Política de Devolución</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Términos de Uso</a></li>
+            </ul>
+            <br>
+            <div class="pack-column-pie">
+                <div class="column-pie">
+                    <p>(+34) 123-456-789</p>
+                </div>
+                <div class="column-pie">
+                    <p><a href="mailto:dngames@vntana.com">dngames@vntana.com</a></p>
+                </div>
+                <div class="column-pie">
+                    <p>© All rights reserved. • DnVindel Studio</p>
+                </div>
+            </div>
+        </div>
+</footer>
+</body>
+</html>

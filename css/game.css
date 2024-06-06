@@ -1,0 +1,163 @@
+button.scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5; /* Agregar transparencia */
+  }
+  
+  button.scrollToTop:hover {
+    background-color: #3e8e41;
+    opacity: 1; /* Quitar transparencia al pasar el mouse */
+  }
+/* Estilos para el botón de subida */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/gamepass/imagen/fondo.jpg);/* para poner un fondo y no quede tan soso */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+/* Ajustes por defecto */
+.menu-lateral {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    margin: 0px;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.menu-logo {
+    padding-left: 50px;
+    padding-top: 20px;
+    display: block;
+}
+/* para centrar en el menu el logo y que aparezca */
+.menu-item a{
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+    color: black;
+    text-transform: uppercase;  
+    font-weight: bold;
+    font-weight: 700px;
+    background-color: green;
+    border-radius: 10px;
+}
+/* para poner un menu centrado y anclado a la izquierda */
+.contenido-main {
+    margin-left: 220px;
+    font-size: 18px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.180); /* para poner un fondo en el main mas oscuro sin modificar el fondo de por si  */
+}
+/* como ajuste por defecto del main y tener el texto centrado y sin comerse el menu  */
+
+
+footer {
+    margin-left: 220px;
+    font-size: 18px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.180);
+}
+/* como ajuste por defecto del footer y tener el texto centrado y sin comerse el menu  */
+footer a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+/* para dara efectos a los enlaces */
+.pack-column-pie {
+    display: flex;
+}
+.column-pie, .politica {
+    background-color: black; /* dar mismo fondo sin necesidad de generar otro div */
+}
+.column-pie {
+    flex: 1;
+    padding: 10px;
+}
+footer h3{
+    background-color: black;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 0px
+}
+/* más ediccion del footer para que se quede los titulos en negro y el final tambn para resaltar el copy, redes + tlfono */
+
+.pack-column1 {
+    display: flex; /* Para distribuir las columnas */
+}
+.column1-inicio {
+    flex: 1; /* Permite que las columnas ocupen el mismo ancho */
+    padding: 10px;
+}
+.column1-inicio img {
+    display: block;
+    margin: 0 auto;
+}
+/* Para centrar las img */
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.titulo{
+    background-color: rgba(255, 255, 255, 0.612);
+    color: black;
+    text-align: center;
+}
+/* Nuevo css pero manteniendo casi todo del css de inicio */
+.drcha-titulo {
+    float: right;
+    width: 280px;
+    height: 560px;
+    margin-left: 10px;
+}
+.izq-titulo {
+    float: left;
+    width: 280px;
+    height: 530px;
+    margin-right: 10px;
+}
+.pack-column-main {
+    display: table;
+}
+/* estos 2 ajustes es para tener la imagen a la derecha o izquierda a lo largo, sirviendo como portada de catergoría */
+
+.column1-inicio p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* titulo de cada juego*/
+.introduccion {
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/* para ajustar la descripción de cada categoría */  
